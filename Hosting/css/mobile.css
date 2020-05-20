@@ -1,0 +1,218 @@
+@media (max-width: 800px){
+	.menu-icon{
+		display: block;
+	}
+
+	header nav{
+		position: absolute;
+		top: 100%;
+		left: 0;
+		background: #232220;
+		width: 100%;
+		display: none;
+	}
+
+	header nav ul{
+		display: block;
+		padding: 0;
+	}
+
+	header nav ul li{
+		margin: 23px 20px;	
+	}
+
+	header nav ul li a{
+		color: white;
+	}
+
+	header .contenedor-inicio{
+		flex-direction: column;
+		margin: 12vh 0;
+	}
+
+	header .titular-header, header .imagen-header{
+		width: 100%;
+	}
+
+	header h1{
+		font-size: 40px;
+	}
+
+	.pop-up{
+    	left: 5%;
+   		width: 90%;
+    }
+
+    .dominios{
+    	padding: 0;
+   	}
+   	
+   	.dominios li{
+   		padding: 0 7px;
+   	}
+
+   	span.dominio{
+   		font-size: 12px;
+   	}
+
+   	span.precio{
+   	 	font-size: 7px;
+	}
+
+	#servicios {
+    	padding-top: 60px;
+	}
+
+	#servicios .servicios{
+		flex-direction: column;
+	}
+
+	.servicios .titular{
+		width: 100%;
+	}
+
+	#servicios h3{
+		font-size: 19px;
+	}
+
+	.servicios .servicio, .servicios2 .servicio{
+		width: 80%;
+		margin: auto;
+		margin-top: 40px;
+	}
+
+	#servicios .servicios2{
+		margin-top: 0px;
+}
+
+	.servicios2{
+		flex-direction: column;
+	}
+
+	.servicios2 .dos {
+   		top: 0;
+	}
+
+	#caracteristicas .caracteristicas{
+		flex-direction: column;
+	}
+
+	.info-caracteristica{
+    	width: 100%;
+	}
+
+	.img-caracteristica {
+    	width: 100%;
+	}
+
+	.caracteristicas2 {
+    	flex-direction: column;
+   		padding-left: 0; 
+   		align-items: start;
+	}
+
+	.caracteristicas2 p{
+    	width: 100%; 
+    }
+
+    #precios {
+    padding-top: 45px;
+	}
+
+	.precios{
+    	flex-direction: column;
+    }
+
+    #precios .precio{
+    	width: 80%;
+    	margin-top: 40px;
+    }
+
+    #gestion-archivos .gestion-archivos{
+    	flex-direction: column;
+    }
+
+    #gestion-archivos .info-archivo{
+    	width: 100%;
+    	margin-right: 0;
+    }
+
+    #gestion-archivos h3, #facil h3{
+    	width: 100%;
+	}
+
+	#gestion-archivos .img-archivo{
+		width: 100%;
+	}
+
+	#experto{
+		padding: 150px 0;
+		background-size: 600px 875px;
+	}
+
+	#experto h2{
+		width: 100%;
+		font-size: 30px;
+	}
+
+	#experto p{
+		width: 100%;
+	}
+
+	#facil .facil{
+		flex-direction: column;
+	}
+
+	#facil .img-facil, #facil .texto-facil{
+    	width: 100%;
+    }
+
+    #testimonios .testimonios{
+	    flex-direction: column;
+    }
+
+    .testimonios .testimonio{
+    	width: 80%;
+    	margin-bottom: 40px;
+    }
+
+    #satisfacciones .satisfacciones{
+    	flex-direction: column;
+    }
+
+    #satisfacciones .satisfaccion{
+    	width: 80%;
+    	margin: 0;
+    	margin-bottom: 40px;
+    	padding: 27px 30px 26px 33px;
+    }
+
+    #treinta{
+    	padding: 130px 0px 55px 0;
+    }
+
+    #treinta h2{
+    	width: 100%;
+    	font-size: 30px;
+    }
+
+    #treinta p{
+    	width: 100%;
+    }
+
+    .footer{
+    	flex-direction: column-reverse;
+    	text-align: center;
+    }
+
+    .tabs-menu li{
+    	padding-right: 20px;
+    	padding-left: 20px;
+    	font-size: 15px;
+    }
+
+    .tab img{
+    	width: 100%;
+    }	 	
+
+}
